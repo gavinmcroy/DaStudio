@@ -30,6 +30,7 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
+        Jump();
         ReadInput();
     }
 
@@ -49,7 +50,7 @@ public class Movement : MonoBehaviour
     private void ReadInput()
     {
         _xMove = Input.GetAxisRaw("Horizontal");
-        _yMove = Input.GetAxisRaw("Vertical");
+       // _yMove = Input.GetAxisRaw("Vertical");
     }
 
     /// <summary>
@@ -75,6 +76,17 @@ public class Movement : MonoBehaviour
         }
     }
 
+    private void Jump()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            // _rigidBody2D.AddForce(Vector2.up*8500);
+            _rigidBody2D.AddRelativeForce(Vector2.up*8500,ForceMode2D.Force);
+        }
+    }
+    
+    
+    
     /// <summary>
     /// This function does something nifty
     /// </summary>
