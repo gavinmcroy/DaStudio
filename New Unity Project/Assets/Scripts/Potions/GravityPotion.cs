@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using Platformer.Mechanics;
 using UnityEngine;
+using TMPro;
 
 public class GravityPotion : MonoBehaviour
 {
     [SerializeField] private float gravityModifier = 1.5f;
     [SerializeField] private int timeToLast = 5;
+    [SerializeField] private TextMeshProUGUI _textMeshProUGUI;
 
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -23,6 +25,7 @@ public class GravityPotion : MonoBehaviour
         controller.jumpTakeOffSpeed *= gravityModifier;
         while (time >= 0)
         {
+            _textMeshProUGUI.text = "" + time;
             Destroy(gameObject, timeToLast * 2);
             yield return new WaitForSeconds(1);
             time--;

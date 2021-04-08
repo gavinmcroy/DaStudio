@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
+using UnityEngine.SceneManagement;
+using Scene = UnityEditor.SearchService.Scene;
 
 namespace Platformer.Mechanics
 {
@@ -137,5 +140,11 @@ namespace Platformer.Mechanics
             InFlight,
             Landed
         }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
+    
 }
