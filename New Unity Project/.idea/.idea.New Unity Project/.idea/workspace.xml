@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d8740a-6bf4-420a-9c72-165398fddf4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PickupTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PickupTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" afterDir="false" />
@@ -29,10 +27,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayAudioClip.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qADiojlDbyP7TQkqBM8FxU1xdU" />
@@ -84,6 +82,7 @@
       <workItem from="1616513655953" duration="2660000" />
       <workItem from="1617889782810" duration="2971000" />
       <workItem from="1617896515505" duration="1130000" />
+      <workItem from="1617899996466" duration="682000" />
     </task>
     <servers />
   </component>

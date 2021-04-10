@@ -54,6 +54,7 @@
           </e>
           <e p="Mechanics" t="Include">
             <e p="AnimationController.cs" t="Include" />
+            <e p="CharacterController2D.cs" t="Include" />
             <e p="DeathZone.cs" t="Include" />
             <e p="EnemyController.cs" t="Include" />
             <e p="GameController.cs" t="Include" />
@@ -63,6 +64,7 @@
             <e p="PatrolPath.Mover.cs" t="Include" />
             <e p="PlayAudioClip.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
+            <e p="playerMovement.cs" t="Include" />
             <e p="SpawnPoint.cs" t="Include" />
             <e p="TokenController.cs" t="Include" />
             <e p="TokenInstance.cs" t="Include" />

@@ -21,7 +21,7 @@ public class TimePotion : MonoBehaviour
     private IEnumerator PotionCountDown(int seconds)
     {
         int time = seconds;
-        while (time >= 0)
+        while (time > 0)
         {
             _textMeshProUGUI.text = ""+time;
             Time.timeScale = timeModifier;
@@ -29,7 +29,7 @@ public class TimePotion : MonoBehaviour
             yield return new WaitForSeconds(1);
             time--;
         }
-
+        _textMeshProUGUI.text = "0";
         Time.timeScale = 1;
     }
 }

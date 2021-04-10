@@ -23,7 +23,7 @@ public class GravityPotion : MonoBehaviour
         int time = seconds;
         PlayerController controller = other.gameObject.GetComponent<PlayerController>();
         controller.jumpTakeOffSpeed *= gravityModifier;
-        while (time >= 0)
+        while (time > 0)
         {
             _textMeshProUGUI.text = "" + time;
             Destroy(gameObject, timeToLast * 2);
@@ -31,6 +31,7 @@ public class GravityPotion : MonoBehaviour
             time--;
         }
 
+        _textMeshProUGUI.text = "0";
         controller.jumpTakeOffSpeed /= gravityModifier;
     }
 }
