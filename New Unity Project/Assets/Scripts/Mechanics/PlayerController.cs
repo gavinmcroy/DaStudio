@@ -143,7 +143,7 @@ namespace Platformer.Mechanics
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("GameOverScene");
         }
     }
     
