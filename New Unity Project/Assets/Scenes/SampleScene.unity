@@ -123,8 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &432799996
 GameObject:
   m_ObjectHideFlags: 0
@@ -34325,4 +34323,3 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
->>>>>>> ac9016c4982db7b400467a52bcaed56865b5d653
