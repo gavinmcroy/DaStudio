@@ -5,9 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Movement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Movement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.pixel-perfect@4.0.1/Runtime/PixelPerfectCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scroll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,6 +38,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scroll.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qADiojlDbyP7TQkqBM8FxU1xdU" />
@@ -83,6 +92,7 @@
       <workItem from="1617889782810" duration="2971000" />
       <workItem from="1617896515505" duration="1130000" />
       <workItem from="1617899996466" duration="682000" />
+      <workItem from="1618916737780" duration="4602000" />
     </task>
     <servers />
   </component>

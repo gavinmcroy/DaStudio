@@ -29,7 +29,6 @@
             </e>
           </e>
         </e>
-        <e p="Movement.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
             <e p="Fuzzy.cs" t="Include" />
@@ -52,6 +51,7 @@
             <e p="PlayerStopJump.cs" t="Include" />
             <e p="PlayerTokenCollision.cs" t="Include" />
           </e>
+          <e p="MainMenu.cs" t="Include" />
           <e p="Mechanics" t="Include">
             <e p="AnimationController.cs" t="Include" />
             <e p="CharacterController2D.cs" t="Include" />
@@ -73,11 +73,14 @@
           <e p="Model" t="Include">
             <e p="PlatformerModel.cs" t="Include" />
           </e>
+          <e p="Movement.cs" t="Include" />
           <e p="Potions" t="Include">
             <e p="GravityPotion.cs" t="Include" />
             <e p="SpeedBoost.cs" t="Include" />
             <e p="TimePotion.cs" t="Include" />
           </e>
+          <e p="Scroll.cs" t="Include" />
+          <e p="TestScript.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="MainUIController.cs" t="Include" />
             <e p="MetaGameController.cs" t="Include" />
@@ -87,7 +90,6 @@
             <e p="ParallaxLayer.cs" t="Include" />
           </e>
         </e>
-        <e p="TestScript.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Resources" t="Include">
             <e p="LineBreaking Following Characters.txt" t="Include" />
