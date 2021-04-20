@@ -37,6 +37,7 @@
             <e p="Simulation.Event.cs" t="Include" />
             <e p="Simulation.InstanceRegister.cs" t="Include" />
           </e>
+          <e p="Fade.cs" t="Include" />
           <e p="Gameplay" t="Include">
             <e p="EnablePlayerInput.cs" t="Include" />
             <e p="EnemyDeath.cs" t="Include" />
