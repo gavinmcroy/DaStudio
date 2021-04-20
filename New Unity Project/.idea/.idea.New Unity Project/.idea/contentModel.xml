@@ -4,15 +4,132 @@
     <e p="C:\Users\Gavin McRoy\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Gavin McRoy\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_New Unity Project.-1611564103.00" t="ExcludeRecursive" />
     <e p="C:\Users\Gavin McRoy\Desktop\DaStudio\New Unity Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="PatrolPathEditor.cs" t="Include" />
+        </e>
+        <e p="Mod Assets" t="Include">
+          <e p="Mod Resources" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Backend" t="Include">
+                <e p="TemplateEditorDetection.cs" t="Include" />
+              </e>
+              <e p="Platformer" t="Include">
+                <e p="EmitParticlesOnLand.cs" t="Include" />
+                <e p="Jiggler.cs" t="Include" />
+                <e p="PlatformerJumpPad.cs" t="Include" />
+                <e p="PlatformerSpeedPad.cs" t="Include" />
+                <e p="SimpleTrigger.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="SpritesHue.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Movement.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="Fuzzy.cs" t="Include" />
+            <e p="HeapQueue.cs" t="Include" />
+            <e p="Simulation.cs" t="Include" />
+            <e p="Simulation.Event.cs" t="Include" />
+            <e p="Simulation.InstanceRegister.cs" t="Include" />
+          </e>
+          <e p="Gameplay" t="Include">
+            <e p="EnablePlayerInput.cs" t="Include" />
+            <e p="EnemyDeath.cs" t="Include" />
+            <e p="HealthIsZero.cs" t="Include" />
+            <e p="PlayerDeath.cs" t="Include" />
+            <e p="PlayerEnemyCollision.cs" t="Include" />
+            <e p="PlayerEnteredDeathZone.cs" t="Include" />
+            <e p="PlayerEnteredVictoryZone.cs" t="Include" />
+            <e p="PlayerJumped.cs" t="Include" />
+            <e p="PlayerLanded.cs" t="Include" />
+            <e p="PlayerSpawn.cs" t="Include" />
+            <e p="PlayerStopJump.cs" t="Include" />
+            <e p="PlayerTokenCollision.cs" t="Include" />
+          </e>
+          <e p="Mechanics" t="Include">
+            <e p="AnimationController.cs" t="Include" />
+            <e p="CharacterController2D.cs" t="Include" />
+            <e p="DeathZone.cs" t="Include" />
+            <e p="EnemyController.cs" t="Include" />
+            <e p="GameController.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+            <e p="KinematicObject.cs" t="Include" />
+            <e p="PatrolPath.cs" t="Include" />
+            <e p="PatrolPath.Mover.cs" t="Include" />
+            <e p="PlayAudioClip.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="playerMovement.cs" t="Include" />
+            <e p="SpawnPoint.cs" t="Include" />
+            <e p="TokenController.cs" t="Include" />
+            <e p="TokenInstance.cs" t="Include" />
+            <e p="VictoryZone.cs" t="Include" />
+          </e>
+          <e p="Model" t="Include">
+            <e p="PlatformerModel.cs" t="Include" />
+          </e>
+          <e p="Potions" t="Include">
+            <e p="GravityPotion.cs" t="Include" />
+            <e p="SpeedBoost.cs" t="Include" />
+            <e p="TimePotion.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="MainUIController.cs" t="Include" />
+            <e p="MetaGameController.cs" t="Include" />
+          </e>
+          <e p="View" t="Include">
+            <e p="AnimatedTile.cs" t="Include" />
+            <e p="ParallaxLayer.cs" t="Include" />
+          </e>
+        </e>
         <e p="TestScript.cs" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Tutorials" t="Include">
+          <e p="BuildAndPublish" t="Include">
+            <e p="Criteria" t="Include">
+              <e p="PublishCriteria.cs" t="Include" />
+              <e p="Unity.2DPlatformer.Tutorials.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="TutorialCallbacks.cs" t="Include" />
+          <e p="Unity.Platformer.Tutorials.asmdef" t="Include" />
+        </e>
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Unity.2DPlatformer.Tutorials.csproj" t="IncludeRecursive" />
+      <e p="Unity.Platformer.Tutorials.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

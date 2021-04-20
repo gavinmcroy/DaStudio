@@ -6,7 +6,11 @@
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "IET.ShowTutorialsClosedDialog",
+<<<<<<< HEAD
                 "value": "{\"m_Value\":true}"
+=======
+                "value": "{\"m_Value\":false}"
+>>>>>>> 055bd1e2a62015114032c911b5305538aaba1cae
             }
         ]
     }

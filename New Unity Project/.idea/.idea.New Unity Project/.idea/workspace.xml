@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d8740a-6bf4-420a-9c72-165398fddf4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +18,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.pixel-perfect@4.0.1/Runtime/PixelPerfectCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayAudioClip.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qADiojlDbyP7TQkqBM8FxU1xdU" />
@@ -70,6 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1616513634552</updated>
       <workItem from="1616513655953" duration="2660000" />
+      <workItem from="1617889782810" duration="2971000" />
+      <workItem from="1617896515505" duration="1130000" />
+      <workItem from="1617899996466" duration="682000" />
     </task>
     <servers />
   </component>
@@ -78,4 +91,16 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
 </project>
