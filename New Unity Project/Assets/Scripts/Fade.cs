@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,6 @@ using UnityEngine.UI;
 public class Fade : MonoBehaviour
 {
     [SerializeField] private RawImage fadeImage;
-    [SerializeField] private int sceneTransition;
     private Color _color;
     private bool _fadeOut;
     private bool _fadeIn = true;
@@ -15,6 +15,18 @@ public class Fade : MonoBehaviour
     private bool _isLoading;
     private IEnumerator _coroutine;
     public static Fade Instance;
+    private Canvas canvas;
+    private String _sceneTransition;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+        } else {
+            Instance = this;
+        }
+    }
 
     void Start()
     {
@@ -25,8 +37,11 @@ public class Fade : MonoBehaviour
         _coroutine = Check();
     }
 
-    public void StartTransition()
+    public void StartTransition(String transition)
     {
+        _sceneTransition = transition;
+        canvas = GetComponent<Canvas>();
+        canvas.sortingOrder = 1;
         _coroutine = Check();
         StartCoroutine(_coroutine);
     }
@@ -56,7 +71,7 @@ public class Fade : MonoBehaviour
         }
         if (_color.a >= 1 && !_isLoading)
         {
-            SceneManager.LoadScene(sceneTransition);
+            SceneManager.LoadScene(_sceneTransition);
             _isLoading = true;
         }
     }
@@ -67,13 +82,14 @@ public class Fade : MonoBehaviour
         _fadeOut = false;
         _fadeIn = true;
         _isLoading = false;
+        canvas.sortingOrder = 0;
     }
 
     IEnumerator Check()
     {
         while (_isTransitioningOnce)
         {
-            yield return new WaitForSeconds(.01f);
+            yield return new WaitForSeconds(.0005f);
             Transition();
         }
         Reset();
