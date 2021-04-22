@@ -20,6 +20,7 @@ namespace Platformer.Mechanics
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
+        [SerializeField] AudioSource footsteps;
 
         /// <summary>
         /// Max horizontal speed of the player.
@@ -52,13 +53,20 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            //footsteps = footsteps.GetComponent<AudioSource>();
         }
 
         protected override void Update()
         {
             if (controlEnabled)
             {
-                move.x = Input.GetAxis("Horizontal");
+                move.x = Input.GetAxisRaw("Horizontal");
+                if(move.x != 0 && jumpState == JumpState.Grounded){
+                    footsteps.UnPause();
+                }
+                else{
+                    footsteps.Pause();
+                }
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
                     jumpState = JumpState.PrepareToJump;
                 else if (Input.GetButtonUp("Jump"))
