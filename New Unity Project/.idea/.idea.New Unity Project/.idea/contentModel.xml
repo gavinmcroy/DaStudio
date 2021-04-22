@@ -81,6 +81,7 @@
             <e p="TimePotion.cs" t="Include" />
           </e>
           <e p="Scroll.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
           <e p="TestScript.cs" t="Include" />
           <e p="Tile" t="Include">
             <e p="warped city files" t="Include">

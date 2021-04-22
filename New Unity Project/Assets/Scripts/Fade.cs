@@ -6,72 +6,72 @@ using UnityEngine.UI;
 
 public class Fade : MonoBehaviour
 {
-    [SerializeField] RawImage fadeImage;
+    [SerializeField] private RawImage fadeImage;
     [SerializeField] private int sceneTransition;
-    private Color color;
-    private bool fadeOut;
-    private bool fadeIn = true;
-    private bool isTransitioningOnce = true;
-    private bool isLoading;
-    private IEnumerator coroutine;
-    public static Fade instance;
+    private Color _color;
+    private bool _fadeOut;
+    private bool _fadeIn = true;
+    private bool _isTransitioningOnce = true;
+    private bool _isLoading;
+    private IEnumerator _coroutine;
+    public static Fade Instance;
 
     void Start()
     {
-        instance = this;
+        Instance = this;
         DontDestroyOnLoad(gameObject);
-        color = fadeImage.GetComponent<RawImage>().color;
+        _color = fadeImage.GetComponent<RawImage>().color;
         fadeImage = fadeImage.GetComponent<RawImage>();
-        coroutine = Check();
+        _coroutine = Check();
     }
 
     public void StartTransition()
     {
-        coroutine = Check();
-        StartCoroutine(coroutine);
+        _coroutine = Check();
+        StartCoroutine(_coroutine);
     }
 
     private void Transition()
     {
-        if (fadeOut && isTransitioningOnce)
+        if (_fadeOut && _isTransitioningOnce)
         {
-            if(color.a<=0)
+            if(_color.a<=0)
             {
-                fadeOut = false;
-                fadeIn = true;
-                isTransitioningOnce = false;
+                _fadeOut = false;
+                _fadeIn = true;
+                _isTransitioningOnce = false;
             }
-            color.a -= Time.deltaTime;
-            fadeImage.color = color;
+            _color.a -= Time.deltaTime;
+            fadeImage.color = _color;
         }
-        else if (fadeIn && isTransitioningOnce)
+        else if (_fadeIn && _isTransitioningOnce)
         {
-            if (color.a>=1)
+            if (_color.a>=1)
             {
-                fadeIn = false;
-                fadeOut = true;     
+                _fadeIn = false;
+                _fadeOut = true;     
             }
-            color.a += Time.deltaTime;
-            fadeImage.color = color;
+            _color.a += Time.deltaTime;
+            fadeImage.color = _color;
         }
-        if (color.a >= 1 && !isLoading)
+        if (_color.a >= 1 && !_isLoading)
         {
             SceneManager.LoadScene(sceneTransition);
-            isLoading = true;
+            _isLoading = true;
         }
     }
 
     private void Reset()
     {
-        isTransitioningOnce = true;
-        fadeOut = false;
-        fadeIn = true;
-        isLoading = false;
+        _isTransitioningOnce = true;
+        _fadeOut = false;
+        _fadeIn = true;
+        _isLoading = false;
     }
 
     IEnumerator Check()
     {
-        while (isTransitioningOnce)
+        while (_isTransitioningOnce)
         {
             yield return new WaitForSeconds(.01f);
             Transition();

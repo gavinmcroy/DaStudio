@@ -4,6 +4,12 @@
     <list default="true" id="e2d8740a-6bf4-420a-9c72-165398fddf4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/backgroundForGame.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/backgroundForGame.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Square.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +35,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scroll.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Fade.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qADiojlDbyP7TQkqBM8FxU1xdU" />
@@ -87,6 +93,8 @@
       <workItem from="1618916737780" duration="4781000" />
       <workItem from="1618923002206" duration="1343000" />
       <workItem from="1618926081168" duration="1471000" />
+      <workItem from="1619010547331" duration="1315000" />
+      <workItem from="1619035489346" duration="986000" />
     </task>
     <servers />
   </component>
