@@ -37,6 +37,7 @@
             <e p="Simulation.Event.cs" t="Include" />
             <e p="Simulation.InstanceRegister.cs" t="Include" />
           </e>
+          <e p="Fade.cs" t="Include" />
           <e p="Gameplay" t="Include">
             <e p="EnablePlayerInput.cs" t="Include" />
             <e p="EnemyDeath.cs" t="Include" />
@@ -81,6 +82,11 @@
           </e>
           <e p="Scroll.cs" t="Include" />
           <e p="TestScript.cs" t="Include" />
+          <e p="Tile" t="Include">
+            <e p="warped city files" t="Include">
+              <e p="public-license.txt" t="Include" />
+            </e>
+          </e>
           <e p="UI" t="Include">
             <e p="MainUIController.cs" t="Include" />
             <e p="MetaGameController.cs" t="Include" />
@@ -124,6 +130,9 @@
           </e>
           <e p="TutorialCallbacks.cs" t="Include" />
           <e p="Unity.Platformer.Tutorials.asmdef" t="Include" />
+        </e>
+        <e p="warped city files" t="Include">
+          <e p="public-license.txt" t="Include" />
         </e>
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />
