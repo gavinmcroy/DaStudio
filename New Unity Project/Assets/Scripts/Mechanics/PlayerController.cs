@@ -151,7 +151,14 @@ namespace Platformer.Mechanics
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            SceneManager.LoadScene("GameOverScene");
+            if (other.CompareTag("GameOver"))
+            {
+                SceneManager.LoadScene("GameOverScene");
+            }
+            else
+            {
+                Fade.instance.StartTransition(other.tag);
+            }
         }
     }
     

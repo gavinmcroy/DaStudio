@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        Fade.Instance.StartTransition("Level 1");
+        Fade.instance.StartTransition("Level 1");
     }
 
     public void ExitGame()
@@ -20,5 +20,15 @@ public class MainMenu : MonoBehaviour
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void LoadLeve2()
+    {
+        Fade.instance.StartTransition("Level 2");
+    }
+
+    public void LoadLevel3()
+    {
+        Fade.instance.StartTransition("Level 3");
     }
 }

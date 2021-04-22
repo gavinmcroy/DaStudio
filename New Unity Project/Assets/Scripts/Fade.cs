@@ -14,23 +14,23 @@ public class Fade : MonoBehaviour
     private bool _isTransitioningOnce = true;
     private bool _isLoading;
     private IEnumerator _coroutine;
-    public static Fade Instance;
-    private Canvas canvas;
-    private String _sceneTransition;
+    public static Fade instance;
+    private Canvas _canvas;
+    private string _sceneTransition;
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (instance != null && instance != this)
         {
             Destroy(this.gameObject);
         } else {
-            Instance = this;
+            instance = this;
         }
     }
 
     void Start()
     {
-        Instance = this;
+        instance = this;
         DontDestroyOnLoad(gameObject);
         _color = fadeImage.GetComponent<RawImage>().color;
         fadeImage = fadeImage.GetComponent<RawImage>();
@@ -40,8 +40,8 @@ public class Fade : MonoBehaviour
     public void StartTransition(String transition)
     {
         _sceneTransition = transition;
-        canvas = GetComponent<Canvas>();
-        canvas.sortingOrder = 1;
+        _canvas = GetComponent<Canvas>();
+        _canvas.sortingOrder = 1;
         _coroutine = Check();
         StartCoroutine(_coroutine);
     }
@@ -82,14 +82,14 @@ public class Fade : MonoBehaviour
         _fadeOut = false;
         _fadeIn = true;
         _isLoading = false;
-        canvas.sortingOrder = 0;
+        _canvas.sortingOrder = 0;
     }
 
     IEnumerator Check()
     {
         while (_isTransitioningOnce)
         {
-            yield return new WaitForSeconds(.0005f);
+            yield return new WaitForSeconds(.00025f);
             Transition();
         }
         Reset();

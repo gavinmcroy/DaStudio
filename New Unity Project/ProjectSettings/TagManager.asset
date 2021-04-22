@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - TutorialRequirement
+  - GameOver
+  - Transition
+  - Level 3
+  - MainMenu
+  - Level 2
   layers:
   - Default
   - TransparentFX
