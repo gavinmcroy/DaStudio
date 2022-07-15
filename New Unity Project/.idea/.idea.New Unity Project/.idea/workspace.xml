@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e2d8740a-6bf4-420a-9c72-165398fddf4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyDeath.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyDeath.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyHurt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyHurt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyIdle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyIdle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyRun.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/EnemyRun.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerDeath.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerDeath.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerHurt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerHurt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerIdle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerIdle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerJump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerJump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerLand.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerLand.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerRun.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerRun.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerSpawn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerSpawn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerVictory.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/PlayerVictory.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/TokenCollected.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/TokenCollected.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Sprites/TokenSpin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Sprites/TokenSpin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/castle_env.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/castle_env.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/decorative_obj.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/decorative_obj.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_ground.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_ground.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_mon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_mon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_rock.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_rock.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_trees.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/env_trees.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/top_far_bgrnd.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/top_far_bgrnd.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/wood_env.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dark_Forest/Sprites/Sliced/wood_env.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Capsule.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Capsule.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tutorials/TutorialCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/warped city files/ENVIRONMENT/tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/warped city files/ENVIRONMENT/tileset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +55,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.pixel-perfect@4.0.1/Runtime/PixelPerfectCamera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scroll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/GravityPotion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/SpeedBoost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/TimePotion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scroll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.learn.iet-framework@2.1.1/Editor/FutureObjectReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -45,25 +76,37 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/PlayerController.cs" />
     </changedPaths>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1qADiojlDbyP7TQkqBM8FxU1xdU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "rider.run.widget.enabled.cache": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.1.7f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\Gavin T McRoy\Documents\GitHub\DaStudio\New Unity Project&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Gavin T McRoy\Documents\GitHub\DaStudio\New Unity Project" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -105,6 +148,7 @@
       <workItem from="1619083333778" duration="1330000" />
       <workItem from="1619085060875" duration="2117000" />
       <workItem from="1619087232571" duration="1719000" />
+      <workItem from="1657909640377" duration="818000" />
     </task>
     <servers />
   </component>
@@ -123,6 +167,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

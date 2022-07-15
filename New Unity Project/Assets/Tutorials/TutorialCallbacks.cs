@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-using Unity.InteractiveTutorials;
+using Unity.Tutorials;
+using Unity.Tutorials.Core.Editor;
 using UnityEditor;
 
 namespace Unity.Tutorials
@@ -17,13 +18,21 @@ namespace Unity.Tutorials
         /// <param name="futureObjectReference"></param>
         public void SelectSpawnedGameObject(FutureObjectReference futureObjectReference)
         {
-            if (futureObjectReference.sceneObjectReference == null) { return; }
-            SelectGameObject(futureObjectReference.sceneObjectReference.ReferencedObjectAsGameObject);
+            if (futureObjectReference.SceneObjectReference == null)
+            {
+                return;
+            }
+
+            SelectGameObject(futureObjectReference.SceneObjectReference.ReferencedObjectAsGameObject);
         }
 
         public void SelectGameObject(GameObject gameObject)
         {
-            if (!gameObject) { return; }
+            if (!gameObject)
+            {
+                return;
+            }
+
             Selection.activeObject = gameObject;
         }
 
@@ -34,10 +43,13 @@ namespace Unity.Tutorials
                 TokenToSelect = GameObject.FindGameObjectWithTag("TutorialRequirement");
                 if (!TokenToSelect)
                 {
-                    Debug.LogErrorFormat("A TokenInstance with the tag '{0}' must be in the scene in order to make this tutorial work properly. Please add the tag {0} to one of your tokens in the scene", "TutorialRequirement");
+                    Debug.LogErrorFormat(
+                        "A TokenInstance with the tag '{0}' must be in the scene in order to make this tutorial work properly. Please add the tag {0} to one of your tokens in the scene",
+                        "TutorialRequirement");
                     return;
                 }
             }
+
             SelectGameObject(TokenToSelect);
         }
 

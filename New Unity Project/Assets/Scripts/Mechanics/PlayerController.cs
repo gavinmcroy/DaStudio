@@ -7,7 +7,7 @@ using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
 using UnityEngine.SceneManagement;
-using Scene = UnityEditor.SearchService.Scene;
+//using Scene = UnityEditor.SearchService.Scene;
 
 namespace Platformer.Mechanics
 {
