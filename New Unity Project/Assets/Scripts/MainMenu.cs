@@ -1,9 +1,15 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Scene = UnityEngine.SceneManagement.Scene;
 
 public class MainMenu : MonoBehaviour
 {
+    public void Awake()
+    {
+        Screen.SetResolution(1920, 1080, true);
+    }
+
     public void PlayGame()
     {
         Fade.instance.StartTransition("Level 1");
